@@ -1,0 +1,21 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  username: omar
+  pass: 7656
+  host: localhost 
+  port: 5432
+development:
+  <<: *default
+  database: svet_psql_development
+
+test:
+  <<: *default
+  database: svet_psql_test
+
+# production:
+#   <<: *default
+#   database: svet_psql_production
+#   username: svet_psql
+#   password: <%= ENV['SVET_PSQL_DATABASE_PASSWORD'] %>
