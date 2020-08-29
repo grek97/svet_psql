@@ -3,9 +3,10 @@ default: &default
   encoding: unicode
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   username: omar
-  pass: 7656
+  password: 7656
   host: localhost 
   port: 5432
+
 development:
   <<: *default
   database: svet_psql_development

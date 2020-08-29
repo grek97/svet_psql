@@ -1,0 +1,24 @@
+{
+  "sqltools.connections": [
+    {
+      "database": "svet_psql_development",
+      "driver": "PostgreSQL",
+      "name": "svet_psql",
+      "password": "7656",
+      "port": 5432,
+      "previewLimit": 50,
+      "server": "localhost",
+      "username": "omar"
+    },
+    {
+      "database": "svet_psql_test",
+      "driver": "PostgreSQL",
+      "name": "svet_psql_test",
+      "password": "7656",
+      "port": 5432,
+      "previewLimit": 50,
+      "server": "localhost",
+      "username": "omar"
+    }
+  ]
+}
